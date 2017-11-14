@@ -5,7 +5,7 @@ version := "0.0.1-SNAPSHOT"
 scalaVersion := "2.11.7"
 
 // what class starts the server
-mainClass in (Compile, run) := Some("Main")
+mainClass in (Compile, run) := Some("FarmHandApplication")
 
 // global package settings
 packageDescription := "Custom application configuration"
