@@ -22,8 +22,8 @@ import com.twitter.finagle.Http
 object Main extends App {
 
   //asynchrone call
-  val api: Endpoint[String] = get("hello") { Ok("FarmHand started.") }
-  Await.ready(Http.serve(":8000", api.toService))
+  val api: Endpoint[String] = get("OK") { Ok("FarmHand started.") }
+  Await.ready(Http.serve(":98000", api.toService))
 
 
 
