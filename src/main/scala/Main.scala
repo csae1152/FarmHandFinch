@@ -23,7 +23,7 @@ object Main extends App {
 
   //asynchrone call
   val api: Endpoint[String] = get("OK") { Ok("FarmHand started.") }
-  Await.ready(Http.serve(":9000", api.toService))
+  Await.ready(Http.serve(":8080", api.toService))
 
 
 
