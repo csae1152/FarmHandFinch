@@ -16,14 +16,14 @@ import com.twitter.finagle.Http
  * Use the following HTTPie commands to test endpoints.
  *
  * {{{
- *   $ http GET :9000/hello
+ *   $ http GET :8000/hello
  * }}}
  */
 object Main extends App {
 
   //asynchrone call
   val api: Endpoint[String] = get("OK") { Ok("FarmHand started.") }
-  AsyncAwait.ready(Http.serve(":9000", api.toService))
+  AsyncAwait.ready(Http.serve(":8000", api.toService))
 
 
 
