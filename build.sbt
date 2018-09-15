@@ -11,7 +11,7 @@ mainClass in (Compile, run) := Some("FarmHandApplication")
 packageDescription := "Custom application configuration"
 
 libraryDependencies ++= Seq(
-	  "com.github.finagle" %% "finch-core" % "0.10.0"
+	  "com.github.finagle" %% "finch-core" % "0.14.0"
 )
 
 resolvers ++= Seq(
