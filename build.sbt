@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
 	  "com.github.finagle" %% "finch-core" % "0.14.0"
 )
 
-resolvers ++= Seq(
+resolvers ++= SeqInit(
 	 Resolver.sonatypeRepo("snapshots")
 )
 
