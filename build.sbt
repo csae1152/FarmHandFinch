@@ -2,7 +2,7 @@ name := """finch-seed"""
 
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 // what class starts the server
 mainClass in (Compile, run) := Some("FarmHandApplication")
