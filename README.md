@@ -1,5 +1,5 @@
 # FarmHandFinch
-Building HTTP API's with Finagle, Finch and Thrift.
+Building HTTPS API's with Finagle, Finch and Thrift.
 
 From the Finagle documentation at https://finagle.github.io/finch/
 
