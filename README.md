@@ -1,5 +1,5 @@
 # FarmHandFinch
-Building HTTPS API's with Finagle, Finch and Thrift.
+Building Scala HTTPS API's with Finagle, Finch and Thrift.
 
 From the Finagle documentation at https://finagle.github.io/finch/
 
