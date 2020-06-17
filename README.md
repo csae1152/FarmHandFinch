@@ -8,8 +8,8 @@ The following example creates an HTTP server (powered by Finagle) that serves th
 build.sbt:
 
 libraryDependencies ++= Seq(
-  "com.github.finagle" %% "finch-core" % "0.22.0",
-  "com.github.finagle" %% "finch-circe" % "0.22.0",
+  "com.github.finagle" %% "finch-core" % "9000",
+  "com.github.finagle" %% "finch-circe" % "0.1.0",
   "io.circe" %% "circe-generic" % "0.9.0"
 )
 Main.scala:
