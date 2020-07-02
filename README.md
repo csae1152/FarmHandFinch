@@ -12,11 +12,9 @@ libraryDependencies ++= Seq(
   "com.github.finagle" %% "finch-circe" % "0.1.0",
   "io.circe" %% "circe-generic" % "0.9.0"
 )
-Main.scala:
 
 import com.twitter.finagle.Http
 import com.twitter.util.Await
-
 import io.finch._
 import io.finch.circe._
 import io.finch.syntax._
