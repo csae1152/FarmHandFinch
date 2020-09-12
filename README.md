@@ -1,7 +1,7 @@
 # FarmHandFinch
 Building Scala HTTPS API's with Finagle, Finch and Thrift.
 
-From the Finagle documentation at https://finagle.github.io/finch/
+Taken From the Finagle documentation at https://finagle.github.io/finch/
 
 The following example creates an HTTP server (powered by Finagle) that serves the only endpoint POST /time. This endpoint takes a Locale instance represented as JSON in request body and returns a current Time for this locale.
 
